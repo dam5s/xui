@@ -71,6 +71,9 @@
 *	x$(['li', 'div#foo']);
 * 
 */
+
+var androidScreenWidth;
+
 (function() {
 	var _$ = function(q) {
 		q = q || document;
@@ -251,6 +254,7 @@
 	//= require <style>
 	//= require <fx>
 	//= require <xhr>
+	//= require <android>
 	
 	for (var i = 0, size = libs.length; i < size; i++) {
 	  _$.extend( libs[i] );
