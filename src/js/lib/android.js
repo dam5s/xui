@@ -18,5 +18,5 @@ var Android = {
 }
 
 if (!!navigator.userAgent.match(/Android/)) {
-  libs.push(Dom);
+  libs.push(Android);
 }

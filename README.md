@@ -1,3 +1,7 @@
+This fork adds orientationchange support for Google Android browsers
+- Damien Le Berrigaud
+
+
 
 @projectDescription 	XUI JavaScript library for mobile web applications.
 
